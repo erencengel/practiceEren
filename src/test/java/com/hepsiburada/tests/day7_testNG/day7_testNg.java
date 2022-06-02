@@ -1,4 +1,4 @@
-package com.hepsiburada.tests;
+package com.hepsiburada.tests.day7_testNG;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
