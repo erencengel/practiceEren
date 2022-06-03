@@ -4,5 +4,6 @@ public class ConflictClass {
 
     //this class has been created for practicing merge......
     //asljkdhajskdhşasd
+    //jmdnajsndjasdnas
 
 }
