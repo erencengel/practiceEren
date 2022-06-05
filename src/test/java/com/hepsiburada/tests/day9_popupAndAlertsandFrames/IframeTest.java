@@ -19,7 +19,7 @@ public class IframeTest {
 
     @AfterMethod
     public void tearDown(){
-        //driver.quit();
+        driver.quit();
     }
 
     @Test
