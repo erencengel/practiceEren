@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -22,7 +23,7 @@ public class Waits {
 
     @AfterMethod
     public void tearDown() {
-        //driver.quit();
+        driver.quit();
     }
 
     @Test
@@ -36,5 +37,14 @@ public class Waits {
                 driver.findElement(By.cssSelector("#username"))
         ));
         driver.findElement(By.cssSelector("#username")).sendKeys("Aslıhan Zeynep");
+    }
+
+    @Test
+    public void test2(){
+        driver.get("http://practice.cybertekschool.com/dynamic_controls");
+        driver.findElement(By.xpath("//button[.='Enable']")).click();
+        new WebDriverWait(driver,7).until(ExpectedConditions.elementToBeClickable(
+                        driver.findElement(By.cssSelector("input[type='text']"))));
+        Assert.assertTrue(driver.findElement(By.cssSelector("input[type='text']")).isEnabled());
     }
 }
