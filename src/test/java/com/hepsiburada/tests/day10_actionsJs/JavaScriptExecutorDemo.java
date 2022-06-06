@@ -57,6 +57,34 @@ public class JavaScriptExecutorDemo {
             jse.executeScript("window.scrollBy(0,20)");
             Thread.sleep(1000);
         }
+
+        for (int i = 0; i < 5; i++) {
+            jse.executeScript("window.scrollBy(0,-20)");
+            Thread.sleep(1000);
+        }
+    }
+
+    @Test
+    public void scrollRightAndLeft() throws InterruptedException {
+        driver.get("http://practice.cybertekschool.com/infinite_scroll");
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        for (int i = 0; i < 5; i++) {
+            jse.executeScript("window.scrollBy(20,0)");
+            Thread.sleep(1000);
+        }
+
+        for (int i = 0; i < 5; i++) {
+            jse.executeScript("window.scrollBy(-20,0)");
+            Thread.sleep(1000);
+        }
+    }
+
+    @Test
+    public void reachSpecificElement(){
+        driver.get("http://practice.cybertekschool.com/");
+        WebElement webElement = driver.findElement(By.xpath("//a[.='Web Tables']"));
+        JavascriptExecutor jse = (JavascriptExecutor) driver;
+        jse.executeScript("arguments[0].scrollIntoView(true);", webElement);
     }
 
 }
