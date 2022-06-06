@@ -1,6 +1,6 @@
-package com.hepsiburada.tests.day8_typesOfElements;
+package com.cyber.tests.day8_typesOfElements;
 
-import com.hepsiburada.utilities.WebDriverFactory;
+import com.cyber.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

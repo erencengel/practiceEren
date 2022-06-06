@@ -1,6 +1,6 @@
-package com.hepsiburada.tests.day11_web_tables;
+package com.cyber.tests.day11_web_tables;
 
-import com.hepsiburada.utilities.WebDriverFactory;
+import com.cyber.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

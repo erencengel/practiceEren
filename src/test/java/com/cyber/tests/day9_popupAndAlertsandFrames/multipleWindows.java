@@ -1,6 +1,6 @@
-package com.hepsiburada.tests.day9_popupAndAlertsandFrames;
+package com.cyber.tests.day9_popupAndAlertsandFrames;
 
-import com.hepsiburada.utilities.WebDriverFactory;
+import com.cyber.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;

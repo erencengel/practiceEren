@@ -1,6 +1,6 @@
-package com.hepsiburada.tests.day5_xpath;
+package com.cyber.tests.day5_xpath;
 
-import com.hepsiburada.utilities.WebDriverFactory;
+import com.cyber.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

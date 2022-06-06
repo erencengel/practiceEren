@@ -1,6 +1,6 @@
-package com.hepsiburada.tests.day6_css;
+package com.cyber.tests.day6_css;
 
-import com.hepsiburada.utilities.WebDriverFactory;
+import com.cyber.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

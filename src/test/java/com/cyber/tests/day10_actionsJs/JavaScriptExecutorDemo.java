@@ -1,6 +1,6 @@
-package com.hepsiburada.tests.day10_actionsJs;
+package com.cyber.tests.day10_actionsJs;
 
-import com.hepsiburada.utilities.WebDriverFactory;
+import com.cyber.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;

@@ -2,7 +2,7 @@
 <suite name="practicePartiallySmoke" verbose="1">
     <test name="practiceEren partially Smoke Test">
         <classes>
-            <class name="com.hepsiburada.tests.day8_typesOfElements.listOfElements">
+            <class name="com.cyber.tests.day8_typesOfElements.listOfElements">
                 <methods>
                     <include name="test2"></include>
                     <include name="test3"></include>
