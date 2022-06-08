@@ -1,5 +1,6 @@
 package com.cyber.tests.day11_web_tables;
 
+import com.cyber.utilities.Driver;
 import com.cyber.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
