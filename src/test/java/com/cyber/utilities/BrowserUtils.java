@@ -230,7 +230,6 @@ public class BrowserUtils {
     public static void waitForStaleElement(WebElement element) {
         int y = 0;
         while (y <= 15) {
-            if (y == 1)
                 try {
                     element.isDisplayed();
                     break;
