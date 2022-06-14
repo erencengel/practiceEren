@@ -69,7 +69,7 @@ public class TestBase {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         actions = new Actions(driver);
         wait = new WebDriverWait(driver,10);
-        driver.get(url);
+        //driver.get(url);
 
     }
     //ITestResult class describes the result of a test in TestNG
